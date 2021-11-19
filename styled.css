@@ -1,0 +1,23 @@
+@import url(./styles/reset.css);
+@import url(./styles/root-var.css);
+@import url(./styles/header.css);
+@import url(./styles//title-section.css);
+@import url(./styles/about-section.css);
+@import url(./styles/common.css);
+@import url(./styles/services.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  
+  padding: 0 15px;
+}
